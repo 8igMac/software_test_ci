@@ -37,7 +37,7 @@ public class TestDeposit {
 
 		// when...
 		when(userA.depositAmount()).thenReturn(198175);
-		when(userA.depositInterest(leq(2000)).thenReturn(0.03);
+		when(userA.depositInterest(leq(2000))).thenReturn(0.03);
 		when(userA.expireEra()).thenReturn("昭和");
 		when(userA.expireYear()).thenReturn(64);
 
@@ -53,7 +53,7 @@ public class TestDeposit {
 
 		// when...
 		when(userA.depositAmount()).thenReturn(18000);
-		when(userA.depositInterest(leq(8000)).thenReturn(0.05);
+		when(userA.depositInterest(leq(8000))).thenReturn(0.05);
 		when(userA.expireEra()).thenReturn("平成");
 		when(userA.expireYear()).thenReturn(6);
 
@@ -69,7 +69,7 @@ public class TestDeposit {
 
 		// when...
 		when(userA.depositAmount()).thenReturn(40000);
-		when(userA.depositInterest(leq(8000)).thenReturn(0.1);
+		when(userA.depositInterest(leq(8000))).thenReturn(0.1);
 		when(userA.expireEra()).thenReturn("昭和");
 		when(userA.expireYear()).thenReturn(20);
 
