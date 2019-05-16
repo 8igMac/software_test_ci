@@ -33,7 +33,7 @@ public class TestDeposit {
 	public void test1949To1989() {
 		// 從1949存錢到昭和64, 存198178
 		// 利率都是3%
-		double expected = 198175 * pow(1.03, 40);
+		double expected = 198175 * Math.pow(1.03, 40);
 
 		// when...
 		when(userA.depositAmount()).thenReturn(198175);
