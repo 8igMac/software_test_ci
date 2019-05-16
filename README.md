@@ -1,4 +1,5 @@
 # Software-testing-2019-travis
+[![Build Status](https://travis-ci.org/8igMac/software_test_ci.svg?branch=master)](https://travis-ci.org/8igMac/software_test_ci)[![codecov](https://codecov.io/gh/8igMac/software_test_ci/branch/master/graph/badge.svg)](https://codecov.io/gh/8igMac/software_test_ci)
 
 ## Makefile
 make [all]		- Compile JAVA class
